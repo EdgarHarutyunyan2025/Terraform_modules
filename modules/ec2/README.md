@@ -16,7 +16,7 @@ Example of using the module in a Terraform project:
 
 ```hcl
 module "ec2_instances" {
-  source = "github.com/yourusername/terraform-aws-ec2"
+  source = "github.com/EdgarHarutyunyan2025/Terraform_modules//modules/ec2"
 
   ec2_count        = 2
   ec2_ami          = "ami-0abcdef1234567890"

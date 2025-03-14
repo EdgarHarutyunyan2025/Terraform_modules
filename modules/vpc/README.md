@@ -20,7 +20,7 @@ Example of using the module in a Terraform project:
 
 ```hcl
 module "main_vpc" {
-  source = "github.com/yourusername/terraform-aws-vpc"
+  source = "github.com/EdgarHarutyunyan2025/Terraform_modules//modules/vpc"
 
   vpc_cidr               = "10.0.0.0/16"
   vpc_name               = "my-vpc"

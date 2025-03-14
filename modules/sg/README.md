@@ -16,7 +16,7 @@ Example of using the module in a Terraform project:
 
 ```hcl
 module "web_sg" {
-  source = "github.com/yourusername/terraform-aws-security-group"
+  source = "github.com/EdgarHarutyunyan2025/Terraform_modules//modules/sg"
 
   sg_count              = 1
   main_vpc_id           = module.vpc.main_vpc_id
